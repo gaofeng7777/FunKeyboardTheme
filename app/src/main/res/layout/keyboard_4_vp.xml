@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/key_bg">
+
+    <LinearLayout
+        android:id="@+id/vp_rg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/icon_bg4">
+
+            <RadioButton
+                android:id="@+id/vp_keyboard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon_jianpan4"
+                android:button="@null"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/vp_btn_a"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon_face4"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/vp_btn_b"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon_life4"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/vp_btn_c"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon_city4"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/vp_btn_d"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon_more4"
+                android:button="@null"  />
+
+            <RadioButton
+                android:id="@+id/vp_btn_hide"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/icon_down4"
+                android:button="@null" />
+
+
+
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/vp"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/vp_rg"
+        android:layout_marginBottom="0dp" />
+
+
+</RelativeLayout>

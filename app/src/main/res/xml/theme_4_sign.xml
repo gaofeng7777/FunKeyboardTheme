@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p" android:horizontalGap="0px"
+    android:verticalGap="0px" android:keyHeight="50dp">
+    <Row>
+        <Key android:codes="64" android:keyLabel="\n@" />
+        <Key android:codes="33" android:keyLabel="!" />
+        <Key android:codes="63" android:keyLabel="\n?" />
+        <Key android:codes="35" android:keyLabel="#" />
+        <Key android:codes="-5" android:isRepeatable="true" android:keyEdgeFlags="right" android:keyIcon="@drawable/icon_delete4" />
+    </Row>
+    <Row>
+        <Key android:codes="46" android:keyLabel="." />
+        <Key android:codes="59" android:keyLabel=";" />
+        <Key android:codes="58" android:keyLabel=":" />
+        <Key android:codes="61" android:keyLabel="=" />
+        <Key android:codes="1734" android:keyEdgeFlags="right" android:keyIcon="@drawable/icon_retreat4" />
+    </Row>
+    <Row>
+        <Key android:codes="43" android:keyLabel="+" />
+        <Key android:codes="45" android:keyLabel="-" />
+        <Key android:codes="40" android:keyLabel="(" />
+        <Key android:codes="41" android:keyLabel=")" />
+        <Key android:codes="10" android:keyHeight="100dip"
+            android:keyEdgeFlags="right" android:isRepeatable="true"
+            android:keyLabel="Enter"/>
+    </Row>
+    <Row>
+        <Key android:codes="1733" android:keyIcon="@drawable/icon_back4" />
+        <Key android:codes="1735" android:keyLabel="€" />
+        <Key android:codes="36" android:keyLabel="$" />
+        <Key android:codes="32" android:isRepeatable="true" android:keyLabel="└─┘" />
+    </Row>
+</Keyboard>

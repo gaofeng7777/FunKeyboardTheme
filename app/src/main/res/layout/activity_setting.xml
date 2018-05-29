@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/setting_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <RelativeLayout
+        android:id="@+id/setting_theme_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/setting_bg">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginTop="250dp"
+            android:text="Fun Keyboard Theme has been set up successfully,come experience it! You can try to set your favorite picture as keyboard wallpaper!"/>
+
+        <ImageButton
+            android:id="@+id/setting_theme_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/icon_theme" />
+
+        <ImageButton
+            android:id="@+id/setting_photo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/icon_background" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/success_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/successful_bg"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/successful_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/letsgo" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Fun Keyboard Theme</string>
+    <string name="step_a_text">Voltooi eerst de eerste stap</string><!--请先完成第一步-->
+    <string name="main_choose">Kies alstublieft Fun Keyboard Theme</string>
+    <string name="main_text"> * Als het systeem het risico van de invoermethode aangeeft, \nkunt u er zeker van zijn dat op de knop OK klikt, \ndat AAAA uw systeembeveiliging niet schaadt.</string>
+    <string name="facebook_app_id">386398591874439</string>
+
+    <string name="longclick_nl_a">æãåāáäâà</string>
+    <string name="longclick_nl_e">ėèęēëéê</string>
+    <string name="longclick_nl_u">ūûùüú</string>
+    <string name="longclick_nl_i">ĳīîįìïí</string>
+    <string name="longclick_nl_o">ōøœõòôöó</string>
+    <string name="longclick_nl_n">ñń</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.inputmethodservice.KeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingTop="2dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/icon_bigbg4"
+    android:keyBackground="@drawable/icon_anniu4"
+    android:keyTextColor="#3078f9"
+    android:shadowRadius="0.0"
+    android:keyTextSize="20sp"
+    android:keyPreviewLayout="@layout/key_preview" />
